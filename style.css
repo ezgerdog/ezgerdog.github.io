@@ -83,6 +83,8 @@ h2{margin:8px 0 40px;font-family:var(--display);font-size:44px;line-height:1.1;l
 .tag.gold{color:var(--gold)}
 .card h3{margin:0;font-family:var(--display);font-size:28px;font-weight:500;line-height:1.2}
 .card p{margin:0;color:var(--soft)}
+.card p.part{font-size:14px;color:var(--muted)}
+.card p.part b{color:var(--soft);font-weight:500}
 .chips{display:flex;flex-wrap:wrap;gap:8px;font-family:var(--mono);font-size:13px;color:var(--muted)}
 .chips span{border:1px solid var(--line2);border-radius:999px;padding:4px 12px}
 .card .more{margin-top:auto;padding:10px 0;font-weight:500}
