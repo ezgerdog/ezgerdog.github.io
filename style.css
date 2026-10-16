@@ -77,7 +77,8 @@ h2{margin:8px 0 40px;font-family:var(--display);font-size:44px;line-height:1.1;l
 /* projects */
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:32px;display:flex;flex-direction:column;gap:14px}
-.shot{width:100%;aspect-ratio:960/498;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
+.shot{width:100%;height:auto;aspect-ratio:960/498;object-fit:cover;border-radius:12px;border:1px solid var(--line);flex:none;background:var(--deep)}
+.flow,.code{flex:none}
 .tag{font-family:var(--mono);font-size:13px;color:var(--accent)}
 .tag.gold{color:var(--gold)}
 .card h3{margin:0;font-family:var(--display);font-size:28px;font-weight:500;line-height:1.2}
@@ -86,9 +87,9 @@ h2{margin:8px 0 40px;font-family:var(--display);font-size:44px;line-height:1.1;l
 .chips span{border:1px solid var(--line2);border-radius:999px;padding:4px 12px}
 .card .more{margin-top:auto;padding:10px 0;font-weight:500}
 .code{margin:0;width:100%;aspect-ratio:960/498;overflow:hidden;background:var(--deep);border:1px solid var(--line);border-radius:12px;padding:18px 20px;font-family:var(--mono);font-size:13px;line-height:1.55;color:var(--soft)}
-.flow{width:100%;aspect-ratio:960/498;background:var(--deep);border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;justify-content:center;gap:16px;font-family:var(--mono)}
+.flow{width:100%;aspect-ratio:960/498;overflow:hidden;background:var(--deep);border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;flex-direction:column;justify-content:center;gap:10px;font-family:var(--mono)}
 .flow-row{display:flex;align-items:center;justify-content:center;gap:8px;font-size:13px}
-.flow-row div{border:1px solid var(--line3);border-radius:10px;padding:10px 12px;text-align:center}
+.flow-row div{border:1px solid var(--line3);border-radius:10px;padding:7px 10px;text-align:center;line-height:1.35}
 .flow-row div:first-child{border-color:var(--accent)}
 .flow-row small{display:block;color:var(--muted);font-size:11px}
 .flow-row i{font-style:normal;color:var(--faint)}
